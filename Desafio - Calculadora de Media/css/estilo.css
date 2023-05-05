@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	background-color: rgba(0,250,154, 0.8);
+}
+header {
+	background-color: #000;
+	color: #fff;
+	font-family: arial;
+	width: 100%;
+	position: fixed;
+	border: solid #000 5px;
+	border-bottom-color: blue;
+	border-right-color: blue;
+	border-left-color: blue;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	z-index: 1;
+}
+
+h3 {
+	font-size: 2rem;
+	font-family: arial;
+	margin: 0;
+	padding: 5px;
+
+}
+
+h4 {
+	font-size: 1rem;
+	font-family: arial;
+	margin: 0;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+
+footer {
+	font-family:  arial;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+p{
+	font-family: arial;
+	text-align: justify;
+	padding: 5px;
+	font-size: 1.6rem;
+}
+h1 {
+	font-family: arial;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 2.5rem;
+}
+h2 {
+	font-family: arial;
+	text-align: center;
+	padding-top: 5px;
+	font-size:  2rem;
+	color: blue;
+	text-shadow: rgba(0,250,154, 1.0) 1px 2px 3px;
+	font-weight: bold;
+}
+.texto-footer{
+	text-align: center;
+	font-family: arial;
+	padding-top: 5px;
+	font-size: 1.6 rem;
+	padding-bottom: 5px;
+}
+
+
+h5 {
+	font-family: arial;
+	text-align: center;
+	padding: 1px;
+	font-size: 1.9rem;
+}
+button {
+	font-family: arial;
+	text-align: center;
+	padding: 1px;
+	font-size: 2;
+	color: #fff;
+	border: solid;
+	background-color: rgba(50, 205, 50, 1.0);
+}
+.container {
+	background-color: #fff;
+	width: 95%;
+	box-shadow: 2px 2px rgba(0,0,255, 1);;
+	margin: 0 auto;
+	max-width: 90%;
+	max-height: 90%;
+	min-height: 0px;
+	min-width: 0px;
+	margin-top: 60px;
+	border-radius: 10px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 2px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.grid div {
+	background-color: #fff;
+	font-family: arial;
+	font-size: 1.6rem;
+	text-align: center;
+	padding: 2px;
+}
+#formulario {
+	background-color: rgba(173, 216, 230, 1.0);
+}
+.formulario-contato {
+	font-family: arial;
+	font-size: 1.8rem;
+	text-align: left;
+	padding: 10px;
+	margin-left: 5%;
+	font-weight: bold;
+	font-style: italic;
+}
+input{
+	font-family: sans-serif;
+	font-size: 1.6 rem;
+	padding: 5px;
+
+}
+.dados-formulario {
+	width: 60%;
+}
+nav {
+	text-align: right;
+	margin-top: 10px;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 1.4rem;
+	margin-right: 3%;
+	word-spacing: 15px;
+}
+a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 1.0);
+
+}
+a:hover {
+	color: rgba(0,255,0);
+	transition: all 200ms ease-in-out;
+	font-size: 1.8rem;
+	letter-spacing: 2px;
+	text-shadow:rgba(0,250,154, 1) 1px 1px 2px;
+
+}
+img{
+
+	width: 80%;
+	height: 80%;
+}
+img:hover {
+	transform: scale(1.2);
+	border: solid rgba(0, 0, 255, 1.0);
+	border-radius: 10px;
+}
+#contato{
+	border: solid blue;
+	border-radius: 10px;
+	padding: 10px;
+}
+#nome{
+	border: solid blue;
+	border-radius: 10px;
+	padding: 10px;
+}
+#email{
+	border: solid blue;
+	border-radius: 10px;
+	padding: 10px;
+}
+#calcular {
+	border: solid rgba(0,255, 0, 0.5);
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #fff;
+	font-style: italic;
+	text-shadow:rgba(60,179,113, 1) 1px 1px 2px;
+	margin-left: 3%;
+}
+#limpar {
+	border: solid rgba(255,0,0, 0.5);
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #fff;
+	text-shadow:rgba(255,0,0, 1) 1px 1px 2px;
+	font-style: italic;
+	margin-left: 3%;
+}
+label {
+	font-size: 1.6rem;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 3%;
+}
+#nota1, #nota2, #nota3, #nota4, #nota5 {
+	border: solid blue;
+	border-radius: 10px;
+}
+#media {
+	border: solid rgba(0,255, 0, 0.5);
+	border-radius: 100px;
+	text-align: center;
+	font-size: 	1.6rem;
+}
+#situacao{
+	border: solid rgba(0,255, 0, 0.5);
+	border-radius: 100px;
+	text-align: center;
+	font-size: 	1.6rem;
+}
+#calc-media {
+	border: solid #000;
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 3%;
+	text-align: center;
+	font-size: 	1.4rem;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 1px 1px 2px #000;
+}
+#calc-media:hover {
+	color: rgba(0,0,255);
+	transition: all 700ms ease-in-out;
+	font-size: 1.8rem;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 2px #fff;
+}
+
